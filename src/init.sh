@@ -14,7 +14,6 @@ else
     echo "The OS is't Ubuntu and cannot be configured!"
     exit
 fi
-exit
 #更新下载源
 
 echo "	- 更新下载源"
