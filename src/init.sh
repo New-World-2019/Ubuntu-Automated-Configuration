@@ -3,8 +3,18 @@
 #set -v   # 测试打印执行命令
 #先检查是不是 Ubuntu 系统，以及输出当前系统的环境
 
-echo "Start Automated Configuration" 
+echo "          Start Automated Configuration" 
 
+unameString=`uname -a`
+UbuntuStr="Ubuntu"
+if [[ $unameStr == *$Ubuntu* ]]; then
+    echo "Check system configuration"
+    echo "OS : Ubuntu"
+else
+    echo "The OS is't Ubuntu and cannot be configured!"
+    exit
+fi
+exit
 #更新下载源
 
 echo "	- 更新下载源"
