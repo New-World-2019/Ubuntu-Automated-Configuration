@@ -3,20 +3,20 @@
 #set -v   # 测试打印执行命令
 #先检查是不是 Ubuntu 系统，以及输出当前系统的环境
 
-echo "          Start Automated Configuration" 
+echo "          Ubuntu 自动化配置" 
 
-echo "检查系统环境"
+echo "1. 检查系统环境"
 unameString=`uname -a`
 UbuntuStr="Ubuntu"
 if [[ $unameStr == *$Ubuntu* ]]; then
     
-    echo "  - OS : Ubuntu"
+    echo "	    - OS : Ubuntu"
 else
     echo "The OS is't Ubuntu and cannot be configured!"
     exit
 fi
 #更新下载源
-echo "配置系统环境"
+echo "2. 配置系统环境"
 echo "	- 更新下载源"
 sudo apt update &> /dev/null
 
@@ -53,6 +53,6 @@ sudo systemctl restart ssh &> /dev/null
 
 # 使用 root 远程登陆
 
-echo "	- 配置成功，可以使用 root 远程登陆！"
+echo "          配置成功，可以使用 root 远程登陆！"
 
 
