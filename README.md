@@ -10,3 +10,8 @@ Ubuntu automatic initialization tool
 - 安装 vim;
 - 修改配置文件 /etc/ssh/sshd_config,以便允许 root 远程登陆;
 - 重启 ssh 服务;
+
+## 使用方法
+ - git clone git@github.com:New-World-2019/Ubuntu-Automated-Configuration.git
+ - cd Ubuntu-Automated-Configuration/src
+ - ./init.sh
