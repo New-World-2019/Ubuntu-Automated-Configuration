@@ -5,17 +5,18 @@
 
 echo "          Start Automated Configuration" 
 
+echo "检查系统环境"
 unameString=`uname -a`
 UbuntuStr="Ubuntu"
 if [[ $unameStr == *$Ubuntu* ]]; then
-    echo "Check system configuration"
-    echo "OS : Ubuntu"
+    
+    echo "  - OS : Ubuntu"
 else
     echo "The OS is't Ubuntu and cannot be configured!"
     exit
 fi
 #更新下载源
-
+echo "配置系统环境"
 echo "	- 更新下载源"
 sudo apt update &> /dev/null
 

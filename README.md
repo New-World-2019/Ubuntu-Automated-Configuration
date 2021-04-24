@@ -12,6 +12,6 @@ Ubuntu automatic initialization tool
 - 重启 ssh 服务;
 
 ## 使用方法
- - git clone git@github.com:New-World-2019/Ubuntu-Automated-Configuration.git
+ - git clone https://github.com/New-World-2019/Ubuntu-Automated-Configuration.git
  - cd Ubuntu-Automated-Configuration/src
- - ./init.sh
+ - sudo ./init.sh
