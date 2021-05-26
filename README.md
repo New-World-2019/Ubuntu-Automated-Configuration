@@ -1,7 +1,7 @@
 # Ubuntu-Automated-Configuration
-Ubuntu automatic initialization tool
+Ubuntu automatic initialization configuration tool.
 
-## 程序功能:
+## 程序功能
 - 安装 net-tools, 以便使用 ifconfig 命令;
 - 安装 openssh-server，以便使用 ssh;
 - 设置 ssh 服务开机启动;
@@ -15,3 +15,7 @@ Ubuntu automatic initialization tool
  - git clone https://github.com/New-World-2019/Ubuntu-Automated-Configuration.git
  - cd Ubuntu-Automated-Configuration/src
  - sudo ./init.sh
+
+## 其它
+- 欢迎提交 PR 添加新功能；
+- 欢迎 fork 和 star;
