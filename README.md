@@ -1,4 +1,4 @@
-# Ubuntu-Automated-Configuration
+# Ubuntu Automated Configuration Tool
 一个 Ubuntu 自动初始化配置工具，项目的目的是可以让用户一键配置在 Ubuntu 上需要的环境！
 
 ## 程序功能
